@@ -2,7 +2,7 @@ let isPhoneRequired = false
 
 const phoneLabelSpan = document.querySelector('.phone-label-span')
 const phoneField = document.getElementById('phone'
-error
+
 )
 
 document.querySelector('#phone-checkbox')
