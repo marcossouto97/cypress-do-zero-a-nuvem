@@ -1,28 +1,73 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# 📌 Projeto de Estudos com Cypress  
 
-👋 Seja bem-vindo(a)!
+Este repositório foi criado para fins de estudo e prática de automações de testes utilizando o **Cypress**.  
+O projeto acompanha o conteúdo do curso [**Cypress, do Zero à Nuvem**](https://www.udemy.com/course/testes-automatizados-com-cypress-basico).  
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+---
 
-## O que você vai aprender?
+## 🚀 Objetivo  
+- Aprender os conceitos fundamentais de testes automatizados com Cypress.  
+- Praticar boas práticas de automação de testes de interface.  
+- Criar uma base sólida para projetos futuros de QA automatizado.  
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+---
 
-## Vamos começar?
+## 🛠️ Tecnologias Utilizadas  
+- [Node.js](https://nodejs.org/)  
+- [Cypress](https://www.cypress.io/)  
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+---
 
-___
+## 📂 Estrutura do Projeto  
+.
+├── cypress
+│ ├── e2e # Casos de teste (end-to-end)
+│ ├── fixtures # Massa de dados fake (JSON)
+│ ├── support # Comandos customizados e configurações
+│
+├── node_modules # Dependências do projeto
+├── cypress.config.js
+├── package.json
+└── README.md
 
-Este é um curso da **Escola Talking About Testing**.
+
+---
+
+## ▶️ Como Executar o Projeto  
+
+### 1. Clone este repositório  
+```bash
+git clone https://github.com/marcossouto97/cypress-do-zero-a-nuvem
+
+```
+
+
+### 2. Instale as dependências
+
+npm install
+
+### 3. Execute o Cypress em modo interativo
+npx cypress open
+
+
+### 4. Execute os testes em modo headless
+npx cypress run
+
+
+### 📖 Aprendizados do Curso
+
+Estrutura de testes no Cypress (describe, it, beforeEach, etc.).
+
+Boas práticas com selectors.
+
+Criação de fixtures para dados mockados.
+
+Uso de comandos customizados para reaproveitamento.
+
+Execução em diferentes navegadores e ambientes.
+
+Integração com CI/CD (GitHub Actions).
+
+### 📌 Status do Projeto
+
+✔️ Em andamento – sendo atualizado conforme avanço no curso.
