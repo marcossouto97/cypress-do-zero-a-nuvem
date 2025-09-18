@@ -4,7 +4,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
       cy.visit("./src/index.html")      
   })
  
-    it('Valida título da página',() => {
+    it('Valida título da página ok',() => {
       cy.title().should('be.equal', 'Central de Atendimento ao Cliente TAT')
     } )
 
